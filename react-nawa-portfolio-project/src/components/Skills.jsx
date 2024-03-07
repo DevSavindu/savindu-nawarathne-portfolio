@@ -22,7 +22,7 @@ const skills = [
     },
     {
       id: 4,
-      name: "Webflow Development",
+      name: "Frontend Development",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
       image: "/src/assets/skills-4.png",
@@ -45,7 +45,7 @@ const Skills = () => {
       <div className=" grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
         {
             skills.map( skill => <div key={skill.id} className="bg-bgShade p-8 rounded-lg cursor-pointer hover:-translate-y-5 transition-all duration-300">
-                <img src={skill.image} alt="" className="w-14 h-14 p-3 bg-white bg-white rounded-lg shadow-md mb-7"/>
+                <img src={skill.image} alt="" className="w-14 h-14 p-3 bg-white rounded-lg shadow-md mb-7"/>
                 <h3 className="text-2xl font-bold mb-4">{skill.name}</h3>
                 <p>{skill.description}</p>
             </div>)

@@ -34,8 +34,8 @@ const Navbar = () => {
         }`}
       >
         <div className="flex items-center justify-between">
-          <div className="text-white font-bold text-lg cursor-pointer">
-            <img src={logo} alt="" className="h-10" />
+          <div className="text-gray-600 font-bold text-2xl cursor-pointer">
+            <h1>NAWA</h1>
           </div>
           
           {/* for larger device */}

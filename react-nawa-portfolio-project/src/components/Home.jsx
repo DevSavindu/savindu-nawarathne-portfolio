@@ -1,10 +1,10 @@
-import banner from "../assets/banner.png";
+import banner from "../assets/ReadyPlayerMe-Avatar (1).png";
 
 
 
 const Home = () => {
   return (
-    <div className="mt-20 bg-bgShade" id="home">
+    <div className="mt-24 bg-bgShade mx-auto md:px-12 p-2" id="home">
       <div className="lg:px-12 px-4 flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5">
       <div className="md:w-1/2 w-full">
           <img src={banner} alt="" className="w-full" />
